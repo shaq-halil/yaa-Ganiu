@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yaa Ganiu Foundation - Empowering Children's Futures</title>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet">
+<script>
+
+tailwind.config = {
+theme: {
+extend: {
+colors: {
+primary: '#2563eb',
+secondary: '#dc2626'
+},
+borderRadius: {
+'none': '0px',
+'sm': '4px',
+DEFAULT: '8px',
+'md': '12px',
+'lg': '16px',
+'xl': '20px',
+'2xl': '24px',
+'3xl': '32px',
+'full': '9999px',
+'button': '8px'
+}
+}
+}
+}
+</script>
+<style>
+   html{
+    scroll-behavior: smooth;
+    }
+:where([class^="ri-"])::before {
+content: "\f3c2";
+}
+.hero-bg {
+background-image: url('./images/documerica-vOxIhoEXPvc-unsplash.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+</style>
+</head>
+<body class="font-['Roboto'] text-gray-900 bg-gray-50">
+<nav class="bg-white shadow-sm sticky top-0 z-50">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center h-16">
+<div class="flex items-center">
+<div class="flex items-center space-x-3">
+  <img src="./images/Yaa Ganiu Foundation Logo.png" alt="Yaa Ganiu Foundation Logo" class="h-20 w-auto">
+  <div class="text-2xl text-primary font-bold">Yaa Ganiu Foundation</div>
+</div>
+
+</div>
+<div class="hidden md:flex items-center space-x-8">
+<a href="./" class="text-gray-700 hover:text-primary transition-colors">Home</a>
+ <a href="#mission" class="text-gray-700 hover:text-primary transition-colors">About</a>
+<a href="#programs" class="text-gray-700 hover:text-primary transition-colors">Programs</a>
+<a href="#gallery" class="text-gray-700 hover:text-primary transition-colors">Gallery</a>
+<a href="#contact" class="text-gray-700 hover:text-primary transition-colors">Contact</a>
+<button class="bg-secondary text-white px-6 py-2 !rounded-button hover:bg-red-700 transition-colors whitespace-nowrap font-medium">
+Donate Now
+</button>
+</div>
+<div class="md:hidden">
+<button id="mobile-menu-btn" class="w-8 h-8 flex items-center justify-center">
+<i class="ri-menu-line text-xl"></i>
+</button>
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="md:hidden bg-white border-t hidden">
+<div class="px-4 py-2 space-y-2">
+<a href="#" class="block py-2 text-gray-700">Home</a>
+<a href="#mission" class="block py-2 text-gray-700">About</a>
+<a href="#programs" class="block py-2 text-gray-700">Programs</a>
+<a href="#gallery" class="block py-2 text-gray-700">Gallery</a>
+<a href="#contact" class="block py-2 text-gray-700">Contact</a>
+<button class="w-full bg-red-700 text-white py-2 !rounded-button mt-2">Donate Now</button>
+</div>
+</div>
+</nav>
+<section class="hero-bg relative min-h-screen flex items-center">
+<div class="absolute inset-0 bg-gradient-to-r from-black/40 to-transparent"></div>
+<div class="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="max-w-2xl">
+<h1 class="text-5xl md:text-6xl font-['Open_Sans'] font-bold text-white mb-6 leading-tight">
+Welcome to Yaa Ganiu Foundation
+</h1>
+<p class="text-xl text-white/90 mb-8 leading-relaxed">
+Empowering young lives through mentorship, education, and holistic care.
+
+Together, we’re shaping futures, unlocking potential, and transforming communities—one life at a time.
+
+
+</p>
+<div class="flex flex-col sm:flex-row gap-4">
+<button class="bg-secondary text-white px-8 py-4 !rounded-button hover:bg-red-700 transition-colors whitespace-nowrap font-semibold text-lg">
+Donate Now
+</button>
+
+<button class="bg-white/20 backdrop-blur-sm text-white px-8 py-4 !rounded-button hover:bg-white/30 transition-colors whitespace-nowrap font-semibold text-lg border border-white/30">
+<a href="#contact">Learn More</a>
+</button>
+
+</div>
+</div>
+</div>
+</section>
+<section id="mission" class="py-20 bg-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid md:grid-cols-2 gap-12 items-center">
+<div>
+<h2 class="text-4xl font-['Open_Sans'] font-bold text-gray-900 mb-6">Our Mission</h2>
+<p class="text-lg text-gray-600 mb-6 leading-relaxed">
+At Yaa Ganiu Foundation, we believe that everyone regardless of background—deserves the chance to discover their true potential. Our mission is to guide talented youth away from the dangers of the street and toward a path of purpose, growth, and opportunity.
+</p>
+<div class="space-y-4">
+<div class="flex items-start gap-3">
+<div class="w-6 h-6 flex items-center justify-center">
+<i class="ri-heart-fill text-secondary text-xl"></i>
+</div>
+<div>
+<h3 class="font-semibold text-gray-900">Talent Discovery</h3>
+<p class="text-gray-600">Nurturing innate abilities through structured guidance and mentorship</p>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<div class="w-6 h-6 flex items-center justify-center">
+<i class="ri-graduation-cap-fill text-secondary text-xl"></i>
+</div>
+<div>
+<h3 class="font-semibold text-gray-900">Equal Opportunity</h3>
+<p class="text-gray-600">Empowering both privileged and underprivileged boys to rise and thrive</p>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<div class="w-6 h-6 flex items-center justify-center">
+<i class="ri-community-fill text-secondary text-xl"></i>
+</div>
+<div>
+<h3 class="font-semibold text-gray-900">Community Impact</h3>
+<p class="text-gray-600">Building stronger communities for sustainable change</p>
+</div>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-6">
+<div class="bg-primary/10 p-6 rounded-xl text-center">
+<div class="text-3xl font-bold text-primary mb-2">238</div>
+<div class="text-gray-600">Children Supported</div>
+</div>
+<div class="bg-secondary/10 p-6 rounded-xl text-center">
+<div class="text-3xl font-bold text-secondary mb-2">GHANA</div>
+<div class="text-gray-600">Country</div>
+</div>
+<div class="bg-green-100 p-6 rounded-xl text-center">
+<div class="text-3xl font-bold text-green-600 mb-2">89%</div>
+<div class="text-gray-600">Success Rate</div>
+</div>
+<div class="bg-purple-100 p-6 rounded-xl text-center">
+<div class="text-3xl font-bold text-purple-600 mb-2">5</div>
+<div class="text-gray-600">Years Experience</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="programs" class="py-20 bg-gray-50">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-['Open_Sans'] font-bold text-gray-900 mb-4">Our Programs</h2>
+<p class="text-xl text-gray-600 max-w-3xl mx-auto">
+We provide comprehensive support through four key programs designed to address the fundamental needs of vulnerable children.
+</p>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+<div class="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center mb-6">
+<i class="ri-book-open-line text-primary text-2xl"></i>
+</div>
+<h3 class="text-xl font-['Open_Sans'] font-semibold mb-4">Education</h3>
+<p class="text-gray-600 mb-6">
+Providing quality education, school supplies, and tutoring to ensure every child can learn and grow.
+</p>
+
+</div>
+<div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+<div class="w-16 h-16 bg-secondary/10 rounded-xl flex items-center justify-center mb-6">
+<i class="ri-home-heart-line text-secondary text-2xl"></i>
+</div>
+<h3 class="text-xl font-['Open_Sans'] font-semibold mb-4">Shelter</h3>
+<p class="text-gray-600 mb-6">
+Safe, nurturing homes where children can feel secure and develop healthy relationships.
+</p>
+
+</div>
+<div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+<div class="w-16 h-16 bg-green-100 rounded-xl flex items-center justify-center mb-6">
+<i class="ri-heart-pulse-line text-green-600 text-2xl"></i>
+</div>
+<h3 class="text-xl font-['Open_Sans'] font-semibold mb-4">Healthcare</h3>
+<p class="text-gray-600 mb-6">
+Comprehensive medical care, nutrition programs, and mental health support for holistic well-being.
+</p>
+
+</div>
+<div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+<div class="w-16 h-16 bg-purple-100 rounded-xl flex items-center justify-center mb-6">
+<i class="ri-user-heart-line text-purple-600 text-2xl"></i>
+</div>
+<h3 class="text-xl font-['Open_Sans'] font-semibold mb-4">Mentorship</h3>
+<p class="text-gray-600 mb-6">
+One-on-one guidance and life skills training to help children build confidence and independence.
+</p>
+</div>
+</div>
+</div>
+</section>
+<section id="testimonials" class="py-20 bg-primary/5">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-['Open_Sans'] font-bold text-gray-900 mb-4">Stories of Hope</h2>
+<p class="text-xl text-gray-600">Hear from the children and families whose lives have been transformed</p>
+</div>
+<div class="relative">
+<div id="testimonial-container" class="overflow-hidden">
+<div id="testimonial-slider" class="flex transition-transform duration-500">
+<div class="w-full flex-shrink-0">
+<div class="max-w-4xl mx-auto text-center">
+<div class="w-20 h-20 bg-white rounded-full mx-auto mb-6 overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=Portrait%20of%20smiling%20young%20girl%20with%20bright%20eyes%2C%20warm%20expression%2C%20professional%20headshot%20style%2C%20soft%20lighting%2C%20hope%20and%20determination&width=200&height=200&seq=testimonial001&orientation=squarish" alt="Sarah" class="w-full h-full object-cover object-top">
+</div>
+<blockquote class="text-2xl text-gray-700 mb-6 italic leading-relaxed">
+"Thanks to Yaa Ganiu Foundation, I’ve grown as a footballer and a student. I now lead my team and focus more in school."
+</blockquote>
+<cite class="text-lg font-semibold text-gray-900">Moses , 17</cite>
+<p class="text-gray-600">Current Program Participant</p>
+</div>
+</div>
+<div class="w-full flex-shrink-0">
+<div class="max-w-4xl mx-auto text-center">
+<div class="w-20 h-20 bg-white rounded-full mx-auto mb-6 overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=Portrait%20of%20confident%20young%20man%20with%20gentle%20smile%2C%20warm%20brown%20eyes%2C%20professional%20headshot%20style%2C%20soft%20natural%20lighting%2C%20hope%20and%20success&width=200&height=200&seq=testimonial002&orientation=squarish" alt="Marcus" class="w-full h-full object-cover object-top">
+</div>
+<blockquote class="text-2xl text-gray-700 mb-6 italic leading-relaxed">
+"With Yaa Ganiu’s help, I finished school and became a coach. Now I mentor others like me to dream bigger"
+</blockquote>
+<cite class="text-lg font-semibold text-gray-900">Francis Kumi, 22</cite>
+<p class="text-gray-600">Program Graduate</p>
+</div>
+</div>
+<div class="w-full flex-shrink-0">
+<div class="max-w-4xl mx-auto text-center">
+<div class="w-20 h-20 bg-white rounded-full mx-auto mb-6 overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=Portrait%20of%20caring%20middle-aged%20woman%20with%20kind%20eyes%2C%20warm%20smile%2C%20professional%20headshot%20style%2C%20soft%20lighting%2C%20compassion%20and%20dedication&width=200&height=200&seq=testimonial003&orientation=squarish" alt="Maria" class="w-full h-full object-cover object-top">
+</div>
+<blockquote class="text-2xl text-gray-700 mb-6 italic leading-relaxed">
+"Yaa Ganiu Foundation gave my son purpose—and gave me peace. He’s more focused and hopeful about his future."
+</blockquote>
+<cite class="text-lg font-semibold text-gray-900">Maria Asante</cite>
+<p class="text-gray-600">Parent of Beneficiary</p>
+</div>
+</div>
+</div>
+</div>
+<div class="flex justify-center mt-8 gap-2">
+<button class="testimonial-dot w-3 h-3 rounded-full bg-primary transition-colors" data-slide="0"></button>
+<button class="testimonial-dot w-3 h-3 rounded-full bg-gray-300 transition-colors" data-slide="1"></button>
+<button class="testimonial-dot w-3 h-3 rounded-full bg-gray-300 transition-colors" data-slide="2"></button>
+</div>
+</div>
+</div>
+</section>
+<section id="gallery" class="py-20 bg-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-['Open_Sans'] font-bold text-gray-900 mb-4">Our Impact in Pictures</h2>
+<p class="text-xl text-gray-600">See the joy and transformation happening every day</p>
+</div>
+<div class="grid md:grid-cols-3 gap-6 mb-12">
+<div class="relative group cursor-pointer gallery-item" data-image="./images/54d440f8-4457-4e48-a492-d618d1fe365d.jpg" data-caption="Children engaged in learning activities">
+<img src="./images/54d440f8-4457-4e48-a492-d618d1fe365d.jpg" alt="Children learning" class="w-full h-64 object-cover object-top rounded-xl">
+<div class="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors rounded-xl flex items-center justify-center">
+<div class="w-12 h-12 bg-white/0 group-hover:bg-white/20 rounded-full flex items-center justify-center transition-colors">
+<i class="ri-eye-line text-white text-xl opacity-0 group-hover:opacity-100 transition-opacity"></i>
+</div>
+</div>
+<div class="absolute bottom-4 left-4 right-4">
+<p class="text-white font-medium opacity-0 group-hover:opacity-100 transition-opacity">Children engaged in learning activities</p>
+</div>
+</div>
+<div class="relative group cursor-pointer gallery-item" data-image="./images/6ae8cb0e-be11-46c0-b4d6-1f672b541c49.jpg" alt="Children playing" class="w-full h-64 object-cover object-top rounded-xl" data-caption="Playtime brings joy and friendship">
+<img src="./images/6ae8cb0e-be11-46c0-b4d6-1f672b541c49.jpg" alt="Children playing" class="w-full h-64 object-cover object-top rounded-xl">
+<div class="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors rounded-xl flex items-center justify-center">
+<div class="w-12 h-12 bg-white/0 group-hover:bg-white/20 rounded-full flex items-center justify-center transition-colors">
+<i class="ri-eye-line text-white text-xl opacity-0 group-hover:opacity-100 transition-opacity"></i>
+</div>
+</div>
+<div class="absolute bottom-4 left-4 right-4">
+<p class="text-white font-medium opacity-0 group-hover:opacity-100 transition-opacity">Playtime brings joy and friendship</p>
+</div>
+</div>
+<div class="relative group cursor-pointer gallery-item" data-image="./images/27dd6964-1aba-4ccd-ab42-b5f2d9cbe923.jpg" data-caption="Community events strengthen bonds">
+<img src="./images/27dd6964-1aba-4ccd-ab42-b5f2d9cbe923.jpg" alt="Community event" class="w-full h-64 object-cover object-top rounded-xl">
+<div class="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors rounded-xl flex items-center justify-center">
+<div class="w-12 h-12 bg-white/0 group-hover:bg-white/20 rounded-full flex items-center justify-center transition-colors">
+<i class="ri-eye-line text-white text-xl opacity-0 group-hover:opacity-100 transition-opacity"></i>
+</div>
+</div>
+<div class="absolute bottom-4 left-4 right-4">
+<p class="text-white font-medium opacity-0 group-hover:opacity-100 transition-opacity">Community events strengthen bonds</p>
+</div>
+</div>
+<div class="relative group cursor-pointer gallery-item" data-image="./images/91d4a90d-92ee-45fd-a375-1def3e55bbca.jpg" data-caption="Quality healthcare for every child">
+<img src="./images/91d4a90d-92ee-45fd-a375-1def3e55bbca.jpg" alt="Healthcare" class="w-full h-64 object-cover object-top rounded-xl">
+<div class="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors rounded-xl flex items-center justify-center">
+<div class="w-12 h-12 bg-white/0 group-hover:bg-white/20 rounded-full flex items-center justify-center transition-colors">
+<i class="ri-eye-line text-white text-xl opacity-0 group-hover:opacity-100 transition-opacity"></i>
+</div>
+</div>
+<div class="absolute bottom-4 left-4 right-4">
+<p class="text-white font-medium opacity-0 group-hover:opacity-100 transition-opacity">Quality healthcare for every child</p>
+</div>
+</div>
+<div class="relative group cursor-pointer gallery-item" data-image="./images/54d440f8-4457-4e48-a492-d618d1fe365d.jpg" data-caption="Mentorship builds confidence">
+<img src="./images/54d440f8-4457-4e48-a492-d618d1fe365d.jpg" alt="Mentorship" class="w-full h-64 object-cover object-top rounded-xl">
+<div class="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors rounded-xl flex items-center justify-center">
+<div class="w-12 h-12 bg-white/0 group-hover:bg-white/20 rounded-full flex items-center justify-center transition-colors">
+<i class="ri-eye-line text-white text-xl opacity-0 group-hover:opacity-100 transition-opacity"></i>
+</div>
+</div>
+<div class="absolute bottom-4 left-4 right-4">
+<p class="text-white font-medium opacity-0 group-hover:opacity-100 transition-opacity">Mentorship builds confidence</p>
+</div>
+</div>
+<div class="relative group cursor-pointer gallery-item" data-image="./images/d5e04811-d081-4b70-8bad-55a93618446b.jpg" data-caption="Celebrating achievements and milestones">
+<img src="./images/d5e04811-d081-4b70-8bad-55a93618446b.jpg" alt="Graduation" class="w-full h-64 object-cover object-top rounded-xl">
+<div class="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors rounded-xl flex items-center justify-center">
+<div class="w-12 h-12 bg-white/0 group-hover:bg-white/20 rounded-full flex items-center justify-center transition-colors">
+<i class="ri-eye-line text-white text-xl opacity-0 group-hover:opacity-100 transition-opacity"></i>
+</div>
+</div>
+<div class="absolute bottom-4 left-4 right-4">
+<p class="text-white font-medium opacity-0 group-hover:opacity-100 transition-opacity">Celebrating achievements and milestones</p>
+</div>
+</div>
+</div>
+<div class="text-center">
+
+<button class="bg-primary text-white px-8 py-3 !rounded-button hover:bg-blue-600 transition-colors whitespace-nowrap font-medium">
+<a href="./gallery.html" >View Full Gallery</a>
+</button>
+
+</div>
+</div>
+</section>
+<section id="contact" class="py-20 bg-primary text-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-['Open_Sans'] font-bold mb-4">Talk to Us</h2>
+<p class="text-xl text-white/90">Join us in making a difference in children's lives</p>
+</div>
+<div class="grid md:grid-cols-2 gap-12 items-center">
+<div>
+<h3 class="text-2xl font-['Open_Sans'] font-semibold mb-6">Stay Connected</h3>
+<p class="text-white/90 mb-8 leading-relaxed">
+Subscribe to our newsletter to receive updates on our programs, success stories, and ways you can help make a difference.
+</p>
+<form class="flex gap-4">
+<input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-lg text-gray-900 border-none focus:outline-none focus:ring-2 focus:ring-secondary">
+<button type="submit" class="bg-secondary text-white px-6 py-3 !rounded-button hover:bg-red-700 transition-colors whitespace-nowrap font-medium">
+Subscribe
+</button>
+</form>
+</div>
+<div class="space-y-6">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center">
+<i class="ri-mail-line text-xl"></i>
+</div>
+<div>
+<h4 class="font-semibold">Email</h4>
+<p class="text-white/90">YaaGaniuFoundation@gmail.com</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center">
+<i class="ri-phone-line text-xl"></i>
+</div>
+<div>
+<h4 class="font-semibold">Phone</h4>
+<p class="text-white/90">+233 244-010-908</p><br><p>+233 555 401 859</p><br><p>+233 541 222 238</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center">
+<i class="ri-map-pin-line text-xl"></i>
+</div>
+<div>
+<h4 class="font-semibold">Address</h4>
+<p class="text-white/90">Central Region, Kasoa</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center">
+<i class="ri-user-heart-line text-xl"></i>
+</div>
+<div>
+<h4 class="font-semibold">Volunteer</h4>
+<p class="text-white/90">Join our volunteer program</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<footer class="bg-gray-900 text-white py-16">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid md:grid-cols-4 gap-8">
+<div>
+   
+<div class="text-2xl text-secondary mb-4">Yaa Ganiu Foundation</div>
+
+<p class="text-gray-400 mb-6 leading-relaxed">
+Empowering vulnerable children through education, healthcare, and mentorship to build brighter futures.
+</p>
+<div class="flex gap-4">
+<a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary transition-colors">
+<i class="ri-facebook-fill"></i>
+</a>
+
+</div>
+</div>
+<div>
+<h3 class="font-['Open_Sans'] font-semibold mb-4">Quick Links</h3>
+<ul class="space-y-2">
+<li><a href="#mission" class="text-gray-400 hover:text-white transition-colors">About Us</a></li>
+<li><a href="#programs" class="text-gray-400 hover:text-white transition-colors">Our Programs</a></li>
+<li><a href="#testimonials" class="text-gray-400 hover:text-white transition-colors">Success Stories</a></li>
+<li><a href="#contact" class="text-gray-400 hover:text-white transition-colors">Get Involved</a></li>
+<li><a href="#contact" class="text-gray-400 hover:text-white transition-colors">Contact</a></li>
+</ul>
+</div>
+<div>
+<h3 class="font-['Open_Sans'] font-semibold mb-4">Programs</h3>
+<ul class="space-y-2">
+<li><a href="#programs" class="text-gray-400 hover:text-white transition-colors">Education</a></li>
+<li><a href="#programs" class="text-gray-400 hover:text-white transition-colors">Shelter</a></li>
+<li><a href="#programs" class="text-gray-400 hover:text-white transition-colors">Healthcare</a></li>
+<li><a href="#programs" class="text-gray-400 hover:text-white transition-colors">Mentorship</a></li>
+<li><a href="#programs" class="text-gray-400 hover:text-white transition-colors">Volunteer</a></li>
+</ul>
+</div>
+<div>
+<h3 class="font-['Open_Sans'] font-semibold mb-4">Support</h3>
+<ul class="space-y-2">
+<li><a href="" class="text-gray-400 hover:text-white transition-colors">Donate</a></li>
+<li><a href="#contact" class="text-gray-400 hover:text-white transition-colors">Sponsor a Child</a></li>
+<li><a href="" class="text-gray-400 hover:text-white transition-colors">Monthly Giving</a></li>
+<li><a href="#contact" class="text-gray-400 hover:text-white transition-colors">Corporate Partnership</a></li>
+<li><a href="#contact" class="text-gray-400 hover:text-white transition-colors">Legacy Giving</a></li>
+</ul>
+</div>
+</div>
+<div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+<p class="text-gray-400 text-sm">
+© 2025 Yaa Ganiu Foundation. All rights reserved.
+</p>
+
+</div>
+</div>
+</footer>
+<div id="lightbox" class="fixed inset-0 bg-black/90 z-50 hidden flex items-center justify-center p-4">
+<div class="relative max-w-4xl w-full">
+<button id="lightbox-close" class="absolute -top-12 right-0 text-white hover:text-gray-300 transition-colors">
+<i class="ri-close-line text-3xl"></i>
+</button>
+<img id="lightbox-image" src="" alt="" class="w-full h-auto rounded-lg">
+<p id="lightbox-caption" class="text-white text-center mt-4 text-lg"></p>
+</div>
+</div>
+<script id="mobile-menu-script">
+document.addEventListener('DOMContentLoaded', function() {
+const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+const mobileMenu = document.getElementById('mobile-menu');
+mobileMenuBtn.addEventListener('click', function() {
+mobileMenu.classList.toggle('hidden');
+});
+});
+</script>
+<script id="testimonial-carousel-script">
+document.addEventListener('DOMContentLoaded', function() {
+const slider = document.getElementById('testimonial-slider');
+const dots = document.querySelectorAll('.testimonial-dot');
+let currentSlide = 0;
+function goToSlide(slideIndex) {
+currentSlide = slideIndex;
+slider.style.transform = `translateX(-${slideIndex * 100}%)`;
+dots.forEach((dot, index) => {
+if (index === slideIndex) {
+dot.classList.remove('bg-gray-300');
+dot.classList.add('bg-primary');
+} else {
+dot.classList.remove('bg-primary');
+dot.classList.add('bg-gray-300');
+}
+});
+}
+dots.forEach((dot, index) => {
+dot.addEventListener('click', () => goToSlide(index));
+});
+setInterval(() => {
+currentSlide = (currentSlide + 1) % dots.length;
+goToSlide(currentSlide);
+}, 5000);
+});
+</script>
+<script id="gallery-lightbox-script">
+document.addEventListener('DOMContentLoaded', function() {
+const galleryItems = document.querySelectorAll('.gallery-item');
+const lightbox = document.getElementById('lightbox');
+const lightboxImage = document.getElementById('lightbox-image');
+const lightboxCaption = document.getElementById('lightbox-caption');
+const lightboxClose = document.getElementById('lightbox-close');
+galleryItems.forEach(item => {
+item.addEventListener('click', function() {
+const imageSrc = this.dataset.image;
+const caption = this.dataset.caption;
+lightboxImage.src = imageSrc;
+lightboxCaption.textContent = caption;
+lightbox.classList.remove('hidden');
+document.body.style.overflow = 'hidden';
+});
+});
+lightboxClose.addEventListener('click', function() {
+lightbox.classList.add('hidden');
+document.body.style.overflow = 'auto';
+});
+lightbox.addEventListener('click', function(e) {
+if (e.target === lightbox) {
+lightbox.classList.add('hidden');
+document.body.style.overflow = 'auto';
+}
+});
+});
+</script>
+<script id="smooth-scroll-script">
+document.addEventListener('DOMContentLoaded', function() {
+const links = document.querySelectorAll('a[href^="#"]');
+links.forEach(link => {
+link.addEventListener('click', function(e) {
+e.preventDefault();
+const targetId = this.getAttribute('href');
+const targetElement = document.querySelector(targetId);
+if (targetElement) {
+targetElement.scrollIntoView({
+behavior: 'smooth',
+block: 'start'
+});
+}
+});
+});
+});
+</script>
+</body>
+</html>
